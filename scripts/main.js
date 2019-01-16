@@ -23,7 +23,7 @@ function clickButton() {
   if (user != null) {
   	myHeading.innerHTML = 'Data Visualization, ' + user;
   }
-  else{
+  if (user == "") {
   	myHeading.innerHTML = 'Data Visualization, Satish';
   }
 
@@ -31,12 +31,12 @@ function clickButton() {
 
 
 function vizTool() {
-  var tool = prompt("Please enter your favorite tool");
+  var tool = prompt("Please enter your favorite platform");
   if (tool != null) {
-  	document.getElementById("viz").innerHTML = tool + " is my favorite tool!";
+  	document.getElementById("viz").innerHTML = tool + " is my favorite platform!";
   }
-  else{
-  	document.getElementById("viz").innerHTML = 'D3 is my favorite tool!';
+  if (tool == "") {
+  	document.getElementById("viz").innerHTML = 'D3 is my favorite platform!';
   }
 
 }
