@@ -1,0 +1,53 @@
+body{
+	width: 1000px;
+  	margin: 0 auto;
+	background-color: #DDDDDD;
+	font-family: Lucida Console;
+	font-size: 18px;
+	padding: 5px 10px 10px 10px;
+}
+
+h1 {
+	color: #3D9970;
+}
+
+img {
+	display: block;
+  	margin: 0 auto;
+}
+
+a {
+	padding-right: 5px;
+}
+
+a:link, a:visited {
+  	background-color: #0074D9;
+  	color: white;
+  	padding: 10px 15px;
+  	text-align: center;
+  	display: inline-block;
+}
+
+
+a:hover, a:active {
+  	background-color: #7FDBFF;
+}
+
+
+* {
+  	box-sizing: border-box;
+}
+
+.column {
+  	float: left;
+  	width: 33.33%;
+  	padding: 5px;
+}
+
+.row::after {
+  	clear: both;
+  	display: table;
+}
+
+
+
