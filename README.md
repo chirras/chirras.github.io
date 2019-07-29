@@ -1,5 +1,3 @@
-# DS 5500 Assignment: Introduction to HTML/CSS/JS & Local Hosting
+# Personal Website
 
-This repository is your starting point for the assignment.
-
-Link to GitHub pages website: https://chirras.github.io/
+Link: https://chirras.github.io/

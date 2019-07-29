@@ -1,37 +1,225 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
+<!--
+	Read Only by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
 <html>
-    <head>
-        <title>Visualization</title>
-        <link rel="stylesheet" type="text/css" href="styles/style.css">
-    </head>
-    <body>
-        <h1 align="center">Data Visualization</h1>
-        <p><strong>Data visualization</strong> is a general term that describes any effort to help people understand the significance of <strong>data</strong> by placing it in a visual context. Patterns, trends and correlations that might go undetected in text-based <strong>data</strong> can be exposed and recognized easier with <strong>data visualization</strong> software.</p>
-        
-        <img src="images/Viz2.png", alt="Example Visualization", onclick="changeImage()">
+	<head>
+		<title>Satish Reddy Chirra - personal website</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
 
-        <p>Visualization platforms used in this course are</p>
-        <ul>
-            <li>Tableau</li>
-            <li>D3</li>
-        </ul>
+		<style type="text/css">
+			html {
+					overflow: scroll;
+					overflow-x: hidden;
+				}
+				::-webkit-scrollbar {
+					/*width: 0px;   remove scrollbar space */
+					background: transparent;  /* optional: just make scrollbar invisible */
+				}
+				/* optional: show position indicator in the specified color */
+				::-webkit-scrollbar-thumb {
+					background:#F4976C;
+				}
+				.wordwrap {
+				   width: 870px;
+				   white-space: pre-wrap;      /* CSS3 */
+				   white-space: -moz-pre-wrap; /* Firefox */
+				   white-space: -pre-wrap;     /* Opera <7 */
+				   white-space: -o-pre-wrap;   /* Opera 7 */
+				   word-wrap: break-word;      /* IE */
+				}
+		</style>
 
-        <p>Below are some open resourses for Tableau and D3</p>
-        <a href="https://public.tableau.com/en-us/s/resources">Tableau</a>
-        <a href="https://github.com/d3/d3/wiki/Gallery">D3</a> 
+	</head>
+	<body class="is-preload">
 
-        <br><br><button onclick="clickButton()">Change User</button>
-        
+		<!-- Header -->
+			<section id="header">
+				<header>
+					<span class="image avatar"><img src="images/avatar.jpg" alt="" /></span>
+					<!--<h1 id="logo"><a href="#">SATISH REDDY CHIRRA</a></h1>-->
+					<p>Data Science Enthusiast |<br />
+					Graduate Student in Data Science</p>
+				</header>
+				<nav id="nav">
+					<ul>
+						<li><a href="#about">About</a></li>
+						<li><a href="#education">Education</a></li>
+						<li><a href="#skills">Skills</a></li>
+						<li><a href="#profExp">Professional Experience</a></li>
+						<li><a href="#AcademicProj">Academic Projects</a></li>
+						<li><a href="#contact">Contact</a></li>
+					</ul>
+				</nav>
+				<footer>
+					<ul class="icons">
+						<li>
+								<a href="https://www.linkedin.com/in/satish-chirra" target="_blank" style="text-decoration:none">
+									<i id="linkedin" class="icon brands fa-linkedin-in fa-2x"></i>
+								</a>
+						</li>
+						<li>
+								<a href="https://github.com/chirras" target="_blank">
+									<i id="github" class="icon brands fa-github fa-2x"></i>
+								</a>
+						</li>
+					</ul>
+				</footer>
+			</section>
 
-        <h4>which of Tableau, D3 is your favorite visualization platform?</h4>
-        <p id="viz"> D3 is my favorite platform!</p>
+		<!-- Wrapper -->
+			<div id="wrapper">
 
-        <button onclick="vizTool()">Change to your favorite platform</button>
+				<!-- Main -->
+					<div id="About">
 
-        <p>Click below for the firefox page</p>
-        <a href="firefox.html">Firefox</a>
+						<!-- About -->
+							<section id="about">
+								<div class="image main" data-position="center">
+									<img src="images/bg.jpg" alt="" />
+								<br><br><br><br>
+								</div>
+								<div class="container">
+									<header class="major">
+										<br><br>
+										<h2>SATISH REDDY CHIRRA</h2>
+										<p>Graduate Student in Data Science</a><br/> <a href="http://www.northeastern.edu">Northeastern University</a>, Boston, MA.</a></p>
+										<pre style="text-align: left;"><span style="font-size:20px"><span style="color:black;">Actively seeking Full-time opportunities starting September 2019</span></pre>
+									
+										<ul class="actions">
+											<li><a href="ResumeLatest.pdf" target="_blank" class="button scrolly"> <b><span style="color:white; font-size:14px;">&nbsp;&nbsp;View&nbsp;&nbsp;Resume&nbsp;&nbsp;</span></b></a></li>
+											<li><a href="ResumeLatest.pdf" class="button scrolly" download> <span style="color:white; font-size: 14px;">Download&nbsp;&nbsp;Resume</span></a></li>
+											<br> <br> <br>
+										</ul>
+									</header>
+								</div>
+							</section>
 
-        <script src="scripts/main.js"></script>
+						<!-- Education -->
+							<section id="education">
+								<div class="container">
+									<h2>EDUCATION</h2>
+									<span class="image main"><img src="images/education.jpg" alt="" height="300" width="900"/></span>
+									<pre style="font-size:18px"><a href="https://www.ccis.northeastern.edu" target="_blank"><span style="color:black;">Northeastern University, Boston, MA</a></span>			    <i>January 2017 - Present</i><br/>College of Information and Computer Science <!--<i>Expected Graduation: August 2019</i>--><br/>Masters of Science in Data Science<br/></pre>
+									<pre style="font-size:18px"><a href="https://jntuh.ac.in" target="_blank"><span style="color:black;">Jawaharlal Nehru Technological University, Hyderabad, India</a></span>   <i>June 2009 - May 2013</i><br/>B.Tech in Electronics and Communications<br/></pre>
+									 
+									<h2 class="major">Courses</h2>
+									<pre class="wordwrap" style="font-size:18px"><span style="color:black;">Supervised Machine Learning</span><br>Regression | Classification | Decision Trees | Ensemble Models | Neural Networks<br><br><span style="color:black;">Data Mining</span><br>Clustering | Recommendation Systems | Association rules |  Clustering | Data Wrangling<br><br><span style="color:black;">Algorithms</span><br>Divide and Conquer | Greedy Algorithms | Dynamic Programming | Sorting and Searching | Graphs<br><br><span style="color:black;">Data Visualization</span><br>D3 | Tableau | Heroku | Plotly | Matplotlib | Python | JavaScript | HTML | CSS<br><br><span style="color:black;">Data Management and Processing</span><br>R programming  | Image classification | GGPlot<br><br><span style="color:black;">Information Retrieval</span><br>Search Engine Design - Web crawling | Text acquisition and pre-processing | Indexing and Storage | Link Analysis through PageRank algorithm | User Interaction | Retrieval Models (tf-IDF, BM25, Query Likelihood) | Elastic Search | Search Result Evaluation and Ranking Techniques<br><br><span style="color:black;">Cloud Computing</span><br>Docker | Container | Kubernetes | AWS | Google Cloud Platform | JavaScript | Python<br><br><span style="color:black;">Database Management</span><br>Advanced SQL | Stored Procedures | Functions | Triggers | Database Design (Conceptual, Logical and Physical Modeling)<br><br></pre>
+								</div>
+							</section>
 
-    </body>
+						<!-- Skills -->
+							<section id="skills">
+								<div class="container">
+									<h2>TECHNICAL SKILLS</h2>
+									<span class="image main"><img src="images/skills.jpg" alt="" height="300" width="900"/></span>
+									<pre class="wordwrap" style="font-size:20px"><span style="color:black;">Key Strengths:</span><br>Feature Engineering, Time Series Forecasting, Natural Language Processing, Data Mining, Deep Learning, Data Visualization, Statistical Modelling, ETL, Recommendation System</pre>
+									<pre class="wordwrap" style="font-size:16px"><span style="color:black;">Languages & ML Tools:</span><br>R, Python (Scikit-learn, Numpy, Pandas, PySpark), Tensor Flow, Keras, Weka, Flask <br><br><span style="color:black;">ML/AI Platforms:</span><br>Data Robot, H2o Driverless AI, AWS SageMaker, BigML, Azure AML<br><br><span style="color:black;">Cloud Platforms:</span><br>AWS, Google Cloud Platform, Azure, Heroku, Elasticsearch, Docker & Container Technologies<br><br><span style="color:black;">Big Data Technologies:</span><br>Spark, Hadoop<br><br><span style="color:black;">Visualization & Interpretability:</span><br>D3, Tableau, matplotlib, Plotly, ggplot, Shiny; LIME, SHAP, Global Surrogate<br><br><span style="color:black;">ETL Tools:</span><br>SAP BODS, Informatica, SAP BW, HVR<br><br><span style="color:black;">Database:</span><br>SQL (Oracle, Vector-Wise, SQL Server, Teradata), NoSQL (MongoDB), Google Big Query<br><br><span style="color:black;">Others:</span><br>Java Script, HTML, ETL Techniques, Excel, Microsoft Office and, JIRA, Service-now, Putty<br><br></pre>
+								</div>
+							</section>
+						
+
+						<!-- Professional Experience -->
+						<section id="profExp">
+								<div class="container">
+									<h2>PROFESSIONAL EXPERIENCE</h2>
+									<span class="image main"><img src="images/profexp.jpg" alt="" height="300" width="900"/></span>
+									
+									<h3>Data Science Coop</h3>
+									<pre class="wordwrap" style="font-size:16px"><a href="https://www.fidelity.com/" target="_blank"><span style="color:black;">Fidelity Investments, Boston, MA</a></span>			<i>May 2018 - Dec. 2018</i></pre>
+									<pre class="wordwrap" style="font-size:16px"><span style="color:black;">Stock Hard-to-Borrow Prediction (Multi Time-series Classification) </span></i><br/><li>Engineered time related features like Lags, Moving Averages, Difference columns and TF-IDF Vectors on Text data.</li><li>Built ML predictive models (XGBoost, LSTM) in python and used Backtesting for cross-validation and Walk forwardvalidation techniques which resulted in 1-10 days ahead prediction and better planning of inventory for brokers.</li><li>Interpreted model predictions using LIME to explain features contributing positively for the prediction to brokers.</li><span style="color:black;">Technologies used: </span> Python | XGBOOST | LSTM | Plotly | Keras | Feature Engineering | TimeSeries </li></pre>
+									<pre class="wordwrap" style="font-size:16px"><span style="color:black;">Financial Wellness Score (FWS) - eMoney </span></i><br/><li>EImplemented Financial Wellness Score for eMoney clients identifying critical categories that effect financial wellness, which helps advisors to manage clients effectively and recommend Next Best Action (NBA).</li><li>Developed interactive visualizations and animations using Plotly on various financial wellness factors.</li><span style="color:black;">Technologies used: </span> Python | Plotly | Pandas | Numpy </li></pre>
+									<pre class="wordwrap" style="font-size:16px"><span style="color:black;">Cryptocurrency Analysis</span></i><br/><li>Conducted thorough exploratory data analysis to find the patterns between cryptocurrency exchanges.</li><li>Built a process flow to analyze market behavior using data from different exchanges and find the best price of bitcoin at given time.</li><span style="color:black;">Technologies used: </span> Python | Plotly | Pandas | Numpy </li></pre>
+									
+									<h3>Senior Software Engineer</h3>
+									<pre class="wordwrap" style="font-size:16px"><span style="color:black;">NxGen – GE Power & Water, Bangalore, India</span>			<i>Feb. 2015 – Sept. 2016</i><br><li>Optimized ETL pipeline to improve the performance of loading financial data into data warehouse tables (Vector Wise) within 4 hours using SAP BODS from multiple sources, on which various other jobs depends.</li><li>Developed complex SQL queries to transform the data by applying the business rules before loading to DWH.</li><li>Built Tableau dashboards to visualize financial reports & managed tableau server (user management, scheduling).</li><li>Conducted UAT with the business teams to ensure the system was aligned with the vision of the business teams.</li><li>Participated in sprint planning, daily scrums, testing, retrospectives and sprint reviews.</li><li>Received ‘PAT ON BACK’ award for implementing optimization techniques in different projects.</li><span style="color:black;">Technologies used: </span> ETL | Advanced SQL | Tableau | HVR | Vector Wise | Tableau Admin | Unix | Agile | JIRA </li></pre>
+									
+									<h3>Software Engineer</h3>
+									<pre class="wordwrap" style="font-size:16px"><span style="color:black;">Last Calendar Day (LCD) – GE Capital, Bangalore, India</span>		<i>May 2014 – Jan. 2015</i><br><li>Optimized ETL Job which takes more than 90mins to load History data (134Million records) to 4mins using Parallel Partitions at session level of Informatica and also incremental (Changed data) data to 1min which loads to both Oracle and Teradata databases from a flat file.</li><li>Performed data validation by developing and executing test plans and supporting user acceptance testing.</li><li>Improved the database performance by indexing appropriate columns in various tables.</li><li>Optimized the database(oracle) by partitioning at table level for performance improvement.</li><span style="color:black;">Technologies used: </span> ETL | Oracle | SQL | Teradata | Informatica | Indexing |UAT | Agile | Unix </li></pre>
+								
+								</div>
+						</section>
+
+						<!-- Academic Projects -->
+						<section id="AcademicProj">
+								<div class="container">
+									<h2>ACADEMIC PROJECTS</h2>
+									<span class="image main"><img src="images/ap.jpeg" alt="" height="320" width="900"/></span>
+									
+									<pre class="wordwrap" style="font-size:16px"><span style="color:black;">Forecasting Retail Sales Data</span>					<i>Jan. 2019 – April. 2019</i><br><li>Built models using both the time series (ARIMA), supervised machine learning techniques (XGBoost) and Deep Learning (LSTM) leveraging different Feature Engineering techniques.</li><li>Developed visualizations for trends in sales and predictions across different locations using D3.js V4.</li><li>Designed and Developed an application ‘Sales Analyzer’ and deployed it using Heroku.</li><span style="color:black;">Technologies used: </span> D3.js V4 | Python | Tableau | Keras | JavaScript | HTML | CSS | Heroku </li></pre>
+									<pre class="wordwrap" style="font-size:16px"><span style="color:black;">Sharing Research through Data Science Environment</span>		<i>Jan. 2019 – April. 2019</i><br><li>Developed a pipeline which allows researchers/users to run the Data Science projects using Google Cloud Engine.</li><li>Automated the process of creating the virtual machine, installing the required environment and packages and running the project on cloud using Docker Images and Containers.</li><li>Collaborated in developing a front-end application where users can register their projects with the required details and keep a repository of their work along with the research papers.</li><span style="color:black;">Technologies used: </span> Google Cloud Platform (GCE) | AWS | Azure | Python | JavaScript | Docker | Containers </li></pre>
+									<pre class="wordwrap" style="font-size:16px"><span style="color:black;">Image Categorization (Stanford Dog Dataset)</span>			<i>Sept. 2017 – Dec. 2017</i><br><li>Designed and Implemented end to end Convolutional Neural Network (CNN) for 120 different dog breeds.</li><li>Fine-tuned a pre-trained model (InceptionV3) on 120 classes and achieved an accuracy of 99.16 on test data.</li><span style="color:black;">Technologies used: </span> R | EDA | Keras | CNN | Inception V3 | ggplot </li></pre>
+									<pre class="wordwrap" style="font-size:16px"><span style="color:black;">Data Mining approach to Identify Air Quality profiles</span>		<i>Sept. 2017 – Dec. 2017</i><br><li>Extracted the data from EPA Air quality data via Google cloud platform using SQL.</li><li>Implemented K-Means to cluster different pollutants across the states in USA both season and site wise. Also, used K-Median, PAM, Hierarchal, DB Scan to compare the results.</li><span style="color:black;">Technologies used: </span> Python | Google Big Query| SQL | Clustering Algorithms | Matplotlib | EDA </li></pre>
+									<pre class="wordwrap" style="font-size:16px"><span style="color:black;">Information Retrieval</span>						<i>May 2017 – Aug. 2017</i><br><li>Developed a ‘Web Scraper’ that uses BFS algorithm on the seed URLs by prioritizing the links to be crawled with the highest number of in-links and crawled above 30000 URLs in Python and indexed using Elasticsearch.</li><li>Implemented a Spam Classifier using Machine Learning Algorithm (Decision Trees) and Elasticsearch.</li><span style="color:black;">Technologies used: </span> Python | Elasticsearch | Kibana | Web Crawling | Indexing | Decision Trees | DFS | BFS </li></pre>
+									<pre class="wordwrap" style="font-size:16px"><span style="color:black;">Detection of Fake News Posts on Facebook</span>			<i>Jan. 2017 – April. 2017</i><br><li>Crawled Facebook news post comments using API and tokenized into a 300-dimensional vector space.</li><li>Trained the vectors on the corpus of comments, also used pre-trained vectors on 3 billion words from Google.</li><li>Implemented machine learning algorithms like Random Forest, Nearest Shrunken Centroid and achieved an accuracy above 90%.</li><span style="color:black;">Technologies used: </span> R | Word2Vec | Random Forest | Bayesian Inference | Google word vectors | NLP </li></pre>
+									<pre class="wordwrap" style="font-size:16px"><span style="color:black;">Sentiment Analysis on HealthCare Tweets</span>				<i>Jan. 2017 – April. 2017</i><br><li>Crawled 15000 tweets related to American Healthcare using Twitter API in R.</li><li>Processed the corpus of words using N-gram (Uni and Bi-grams) models and extracted the sentiment of the tweets that ranging from highly Positive to highly Negative and Visualized the sentiment.</li><li>Visualized data using ggplot and wordcloud.</li><span style="color:black;">Technologies used: </span> R | N-gram | Sentiment Analysis | Text Analysis | Word Cloud | ggplot </li></pre>
+								
+								</div>
+						</section>
+
+						<!-- Contact -->
+							<section id="contact">
+								<div class="container">
+									<h3>Let's get in touch!</h3>
+									<span class="image main"><img src="images/gt.jpg" alt="" height="320" width="900"/></span>
+									
+									<div class="split style2">
+											<section>
+													<ul class="contact" style="font-size: 16.5px; font-family: Courier New, monospace; margin: 0 0 2em 0;">
+															<li>
+																<h3>Address</h3>
+																<span> 9 Turquoise Way<br />
+																Boston, MA - 02120 <br />
+																</span>
+															</li>
+															<li>
+																<h3>Email</h3>
+																<p>
+																	<i id="email" class="fa fa-envelope fa-1x fa-social"></i>&nbsp;chirra.s@husky.neu.edu
+																	<br>
+																	<i id="email" class="fa fa-envelope fa-1x fa-social"></i>&nbsp;satishr462@gmail.com
+		
+															</p>
+															</li>
+													  </ul>
+											</section>
+											<section>
+												<ul class="contact" style="font-size: 18px; font-family: Courier New, monospace; margin: 0 0 2em 0;">
+													<li>
+														<h3>Phone</h3>
+														<span>(857)-237-7974</span>
+													</li>
+		
+												</ul>
+											</section>
+										</div>
+								</div>
+							</section>
+					</div>
+
+				<!-- Footer -->
+					<section id="footer">
+						<div class="container">
+							<ul class="copyright">
+								<li>&copy; Made by: Satish Chirra | All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+							</ul>
+						</div>
+					</section>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
 </html>
