@@ -7,6 +7,8 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+
+
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -70,6 +72,26 @@ input, select, textarea {
 	-webkit-appearance: none;
 	-ms-appearance: none;
 	appearance: none;
+}
+
+#education {
+	background-color: #DBDFEE;
+}
+
+#skills {
+	background-color: #C5CBE3;
+}
+
+#profExp {
+	background-color: #DBDFEE /*#DEF2F1*/;
+}
+
+#AcademicProj {
+	background-color: #C5CBE3 /*#F0EBF4*/;
+}
+
+#contact {
+	background-color: #DBDFEE/*#F3E0DC*/;
 }
 
 /* Basic */
@@ -1707,9 +1729,10 @@ input, select, textarea {
 /* Container */
 
 	.container {
-		margin: 0 auto;
+		margin: 0 0 0 6em;
 		max-width: calc(100% - 4.5em);
 		width: 45em;
+		display: inline-block;
 	}
 
 		.container.xsmall {
